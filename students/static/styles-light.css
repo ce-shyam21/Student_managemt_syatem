@@ -1,0 +1,11 @@
+/* styles-light.css */
+:root {
+    --background-color: #ffffff;
+    --text-color: #333333;
+    /* Add more light mode styles here */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

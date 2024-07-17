@@ -1,0 +1,20 @@
+.myclass {
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    height: 35px;
+    width: 131px;
+    box-shadow: 4px 4px 0 gray;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.myclass:active {
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 gray;
+  }
+
+.myclass1{
+    color: white;
+    
+}
